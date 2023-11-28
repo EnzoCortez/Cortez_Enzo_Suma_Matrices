@@ -48,6 +48,40 @@ int main(){
         }
     }
 
+    /*Impresion de matrices*/
+
+    /*Matriz A*/
+    printf("\nMatriz A:\n");
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < m; j++)
+        {
+            printf("%d ", matrizA[i][j]);
+        }
+        printf("\n");
+    }
+
+    /*Matriz B*/
+    printf("\nMatriz B:\n");
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < m; j++)
+        {
+            printf("%d ", matrizB[i][j]);
+        }
+        printf("\n");
+    }
+
+    /*Matriz Resultante C*/
+    printf("\nMatriz C:\n");
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < m; j++)
+        {
+            printf("%d ", matrizC[i][j]);
+        }
+        printf("\n");
+    }
 }
 
 
