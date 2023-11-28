@@ -9,9 +9,9 @@ int main(){
 
     /*Solicitud de las dimesiones de las matrices*/
     printf("Ingrese las dimensiones de la matriz");
-    printf("Ingrese el numero de filas");
+    printf("Ingrese el numero de filas: ");
     scanf("%d",&m);
-    printf("Ingrese el numero de columnas");
+    printf("Ingrese el numero de columnas: ");
     scanf("%d",&n);
     /*Definir las matrices*/
     
@@ -56,7 +56,7 @@ int main(){
     {
         for (int j = 0; j < m; j++)
         {
-            printf("%d ", matrizA[i][j]);
+            printf(" %d ", matrizA[i][j]);
         }
         printf("\n");
     }
@@ -67,7 +67,7 @@ int main(){
     {
         for (int j = 0; j < m; j++)
         {
-            printf("%d ", matrizB[i][j]);
+            printf(" %d ", matrizB[i][j]);
         }
         printf("\n");
     }
@@ -78,7 +78,7 @@ int main(){
     {
         for (int j = 0; j < m; j++)
         {
-            printf("%d ", matrizC[i][j]);
+            printf(" %d ", matrizC[i][j]);
         }
         printf("\n");
     }
